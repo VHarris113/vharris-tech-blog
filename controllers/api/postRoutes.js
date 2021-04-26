@@ -1,5 +1,14 @@
 const router = require('express').Router();
-const { User } = require('../../models');
+const { User, Post, Comment } = require('../../models');
+const sequelize = require('../../config/connection');
+const withAuth = require('../../utils/auth');
+
+router.get('/', (req, res) => {
+  console.log('=========================');
+  Post.findAll({
+    
+  })
+})
 
 router.post('/', async (req, res) => {
   try {
