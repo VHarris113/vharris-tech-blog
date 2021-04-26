@@ -1,0 +1,22 @@
+.navbartop {
+    background-color: #1a5d8a;
+}
+
+.head {
+    float: left;
+    background-color: #cac8db;
+    padding: .5rem;
+    border-radius: 13%;
+    box-shadow: 12px 12px 2px 1px rgba(36, 36, 43, 0.2);
+}
+
+/* .navbar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #1a5d8a;
+    flex-direction: row;
+} */
+
+/* .navbar {
+    float: right;
+} */
