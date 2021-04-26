@@ -10,6 +10,20 @@
     box-shadow: 12px 12px 2px 1px rgba(36, 36, 43, 0.2);
 }
 
+.link {
+    color: #cac8db;
+    margin: 1rem;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.link:hover {
+    color: #daa2a2
+}
+
+.link:active {
+    color: #e64242
+}
 /* .navbar {
     display: flex;
     justify-content: flex-end;
