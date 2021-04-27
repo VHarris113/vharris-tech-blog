@@ -1,36 +1,16 @@
-.navbartop {
-    background-color: #1a5d8a;
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.head {
-    float: left;
-    background-color: #cac8db;
-    padding: .5rem;
-    border-radius: 13%;
-    box-shadow: 12px 12px 2px 1px rgba(36, 36, 43, 0.2);
+.headtop {
+    background-color: #5040e0;
 }
 
 .link {
-    color: #cac8db;
-    margin: 1rem;
-    font-weight: bolder;
-    font-size: larger;
+    display: flex;
+    justify-content: space-around;
 }
 
 .link:hover {
-    color: #daa2a2
+    color: #50b9c0
 }
-
-.link:active {
-    color: #e64242
-}
-/* .navbar {
-    display: flex;
-    justify-content: flex-end;
-    background-color: #1a5d8a;
-    flex-direction: row;
-} */
-
-/* .navbar {
-    float: right;
-} */
