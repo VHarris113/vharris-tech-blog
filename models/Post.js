@@ -16,32 +16,23 @@ Post.init(
       allowNull: false,
     },
     content: {
-      type: DataTypes.STRING,
-    },
-    date_created: {
-      type: DataTypes.DATE,
-      allowNull: false,
-      defaultValue: DataTypes.NOW,
-    },
-    needed_funding: {
-      type: DataTypes.FLOAT,
-      allowNull: false,
+      type: DataTypes.TEXT,
+      allowNull: false
     },
     user_id: {
       type: DataTypes.INTEGER,
       references: {
         model: 'user',
-        key: 'id',
-      },
+        key: 'id'
+      }
     },
   },
-  {
-    sequelize,
-    timestamps: false,
-    freezeTableName: true,
-    underscored: true,
-    modelName: 'project',
-  }
+    {
+      sequelize,
+      freezeTableName: true,
+      underscored: true,
+      modelName: 'post',
+    }
 );
 
 module.exports = Post;
