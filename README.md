@@ -22,6 +22,9 @@ Please place into your Terminal or GitBash with the code:
 
 ## Languages
 - JavaScript
+- HTML
+- CSS
+- Handlebars
 
 Also to include the programs used:
 - MySQL
