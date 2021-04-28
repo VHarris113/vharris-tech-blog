@@ -23,8 +23,6 @@ const sess = {
   })
 };
 
-// const publicPat
-
 app.use(session(sess));
 
 app.engine('handlebars', hbs.engine);

@@ -1,16 +1,58 @@
-* {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.headtop {
+    background-color: #1a5d8a;
+    columns: inherit;
 }
 
-.headtop {
-    background-color: #5040e0;
+.title {
+    float: left;
+    background-color: #cac8db;
+    padding: .5rem;
+    border-radius: 13%;
+    box-shadow: 12px 12px 2px 1px rgba(36, 36, 43, 0.2);
 }
 
 .link {
-    display: flex;
-    justify-content: space-around;
+    color: #9186f1;
+    margin: 1rem;
+    font-weight: bolder;
+    font-size: larger;
 }
 
 .link:hover {
-    color: #50b9c0
+    color: #daa2a2
+}
+
+.link:active {
+    color: #e64242
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin-top: 1rem;
+    box-sizing: content-box;
+    width: 95rem;
+    border-style: solid 1rem #000000;
+}
+
+.card-header {
+    background-color: #9fbccf;
+}
+
+.btn {
+    background-color: #341149;
+    color: #000000;
+}
+
+.btn:hover {
+    background-color: #e64242;
+    color: #FFFFFF;
+}
+
+.btn:active {
+    background-color: #d9d7f0;
+    color: #000000;
 }
